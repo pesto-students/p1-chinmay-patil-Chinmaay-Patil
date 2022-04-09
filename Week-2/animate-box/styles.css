@@ -1,0 +1,68 @@
+body {
+    position: absolute;
+    top: 250px;
+    left: 550px;
+}
+
+.first {
+    width: 100px;
+    height: 100px;
+    background: green;
+    transition: transform 0.5s linear;
+    transform-origin: top left;
+    position: absolute;
+    margin-top: 0px;
+}
+
+.sec {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: transform 0.5s linear;
+    transform-origin: top right;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.third {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: transform 0.5s linear;
+    transform-origin: bottom left;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 0px;
+
+}
+
+.fourth {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    transition: transform 0.5s linear;
+    transform-origin: bottom right;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+
+
+.main:hover .first {
+    transform: rotate(90deg);
+}
+
+.main:hover .sec{
+    transform: rotate(-90deg);
+}
+
+.main:hover .third {
+    transform: rotate(-90deg);
+}
+
+.main:hover .fourth {
+    transform: rotate(90deg);
+}

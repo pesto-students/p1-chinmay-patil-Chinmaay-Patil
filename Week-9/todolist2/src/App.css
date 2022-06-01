@@ -1,0 +1,105 @@
+/* applies to all elements and components in app.js file */
+*{
+  background-color: black;
+}
+/* CSS to mark the todo as completed and strikethrough the text and icons */
+.strike {
+
+ 
+  text-decoration: line-through red;
+  transition: 0.5s;
+
+}
+/* heading styling */
+h1{
+  text-align: center;
+  color: brown;
+}
+
+/* inputtextbox and addtodo button */
+.form {
+  margin-top: 10px;
+  display: flex;
+  /* align-items: center; */
+  /* border: 1px solid aqua; */
+  /* vertical-align: middle; */
+  /* text-align: center; */
+  justify-content: center;
+}
+#inputtextbox {
+  background-color: aqua;
+  width: 600px;
+  height: 50px;
+  font-size: 20px;
+  vertical-align: middle;
+  border: 2px solid aqua;
+  align-items: center;
+
+}
+#addbutton {
+  background-color: aqua;
+  border: 2px solid aqua;
+  font-size: 30px;
+  width: 50px;
+  height: auto;
+  color: black;
+}
+/* listdisplaying CSS */
+#listdisplay{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 30px;
+  justify-content: center;
+  
+}
+
+/* styling todos */
+#onetodo{
+  display: flex;
+  /* border:  1px solid red; */
+  flex-direction: row;
+  padding: 10px;
+  justify-content:left;
+  color: green;
+  width: 80%;
+  margin-left: 30%;
+
+}
+
+#checkboxes{
+  height: 30px;
+  width: 30px;
+ 
+}
+/* styling for clear completed anad delete all buttons */
+#ccda{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly; 
+  margin-top: 10px;
+  height: 50px;
+
+  }
+/* styling for all buttons */
+button{
+  background-color: transparent;
+  color: aqua;
+  height: 50px;
+}
+
+/* creating hovering effect for buttons */
+button:hover{
+  background-color: green;
+  transition: 0.5s;
+}
+/* css for edit button and text box which appears after clicking edit icon */
+#editbutton{background-color: aqua;
+color: black;
+font-size: large;
+}
+
+#edittextbox{
+  background-color: aqua;
+}

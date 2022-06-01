@@ -1,3 +1,6 @@
+to preview the app please open following link
+https://delicate-dasik-176738.netlify.app/
+
 To install react uses below command -
 
 npx create-react-app {name of app or folder}
@@ -18,3 +21,5 @@ delete todos which are mark as completed
 animations--
 hovering over button amd changing the background
 strike through the text and icon once it is mark as completed
+
+

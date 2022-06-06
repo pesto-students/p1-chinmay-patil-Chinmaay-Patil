@@ -84,7 +84,7 @@ function App() {
             <input id="edittextbox"
               type="text" placeholder={todo.text}
               onChange={(e) => seteditingtext(e.target.value)}
-            value= {todo.text}
+          
             /> </>) : (<> {todo.text}</>)}
           <button id="deletetodo" class="fa fa-trash" onClick={() => deletetodo(todo.id)}></button>
           <button id="edittodo" class="fa fa-edit" onClick={() => settodoediting(todo.id)} > </button>
